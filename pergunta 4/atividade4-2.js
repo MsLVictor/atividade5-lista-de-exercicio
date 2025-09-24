@@ -2,7 +2,7 @@ let anoAtual2 = new Date().getFullYear();
 let percentual2 = 15n;
 
 
-let salarioInicialInput = parseFloat(prompt("Digite o salário inicial (Ex: 1000):"));
+let salarioInicialInput = parseFloat(prompt("Digite o salário inicial (Ex: 1000): "));
 let seuSalario2 = BigInt(Math.floor(salarioInicialInput * 100));
 
 
